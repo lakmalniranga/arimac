@@ -137,7 +137,7 @@ thead{
         position:absolute;
         left:50%; /* centers the loading animation horizontally one the screen */
         top:50%; /* centers the loading animation vertically one the screen */
-        background-image:url(img/milo-load.gif); /* path to your loading animation */
+        background-image:url(http://arimac.digital/arimac/img/milo-load.gif); /* path to your loading animation */
         background-repeat:no-repeat;
         background-position:center;
         margin:-100px 0 0 -100px; /* is width and height divided by two */
@@ -223,7 +223,7 @@ thead{
 }
 @media (min-width: 768px) and (max-width: 992px) { 
   .main-bg{
-    background:url(img/main-bg.png);
+    background:url(../img/main-bg.png);
     position: fixed;
     background-size:cover;
     top: 0px;
@@ -234,7 +234,7 @@ thead{
     }}
 
     .closed-bg{
-      background:url(img/thanku.jpg);
+      background:url(../img/thanku.jpg);
       position: fixed;
       background-size:cover;
       top: 0px;
@@ -246,7 +246,7 @@ thead{
 
     @media (min-width: 992px) { 
       .main-bg{
-        background:url(img/bg-big.jpg);
+        background:url(../img/bg-big.jpg);
         position: fixed;
         background-size:cover;
         top: 0px;
@@ -585,7 +585,7 @@ thead{
       width: 100%;
     }
 
-    thead, tbody, tr, td, th { display: block; }
+   /* tbody { display: block; } */
 
     tr:after {
       content: ' ';
@@ -604,7 +604,7 @@ thead{
 
 
     tbody td, thead th {
-      width: 19.2%;
+     /* width: 19.2%; */
       float: left;
     }
     .table>thead>tr>th {
