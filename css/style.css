@@ -137,7 +137,7 @@ thead{
         position:absolute;
         left:50%; /* centers the loading animation horizontally one the screen */
         top:50%; /* centers the loading animation vertically one the screen */
-        background-image:url(http://arimac.digital/arimac/img/milo-load.gif); /* path to your loading animation */
+        background-image:url(https://finance.arimaclanka.com/arimac/img/milo-load.gif); /* path to your loading animation */
         background-repeat:no-repeat;
         background-position:center;
         margin:-100px 0 0 -100px; /* is width and height divided by two */
@@ -213,7 +213,7 @@ thead{
   }
 }
 .main-bg{
-  background:url(img/main-mobi-bg.jpg);
+  background:url(https://finance.arimaclanka.com/arimac/img/main-mobi-bg.jpg);
   position: fixed;
   background-size:cover;
   top: 0px;
@@ -263,7 +263,7 @@ thead{
          height:auto;
        }
        .gen-pad{
-         padding:15px;
+         padding:8px;
        }
        .btn {
         display: inline-block;
@@ -302,7 +302,7 @@ thead{
         background: -ms-linear-gradient(top,  #c77d33 0%,#e8a933 73%); /* IE10+ */
         background: linear-gradient(to bottom,  #c77d33 0%,#e8a933 73%); /* W3C */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c77d33', endColorstr='#e8a933',GradientType=0 ); /* IE6-9 */
-
+	    white-space: initial;
 
 
       }
@@ -386,7 +386,7 @@ thead{
      }
      @media (max-width: 768px) {
       .mini-btn{
-       font-size:18px;
+       font-size:15px;
      }
 
      .main-btn-wrap{
